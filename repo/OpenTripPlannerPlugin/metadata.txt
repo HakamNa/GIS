@@ -1,0 +1,50 @@
+[general]
+name=OpenTripPlanner Plugin
+qgisMinimumVersion=3.16
+description=This plugin makes OpenTripPlanner functionalities accessible from within QGIS
+version=1.0.1
+author=Mario Koenigbauer
+email=mkoenigb@gmx.de
+
+about=This Plugin makes OpenTripPlanner functionalities accessible from within QGIS. Create Isochrones, Routes and Route-Matrices based on your local or remote OTP instance and continue working on the results directly in QGIS.
+
+tracker=https://github.com/mkoenigb/OpenTripPlannerPlugin/issues
+repository=https://github.com/mkoenigb/OpenTripPlannerPlugin/
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+changelog=1.0.1 Added experimental ability for aggregated isochrones, added status information textbox for user communication, added set datetime to now function.
+    1.0 Improved error handling, Added Timeout option, minor improvements and fixes
+    0.5.1 Merged Pull Request by Florian Schueller: Linux compatibility and error messages (Support for Linux Filepaths, Support for Minute and Hour in Isochrones-Interval-GUI, Improved Error Messages for Isochrones)
+    0.5 Bugfixing and codeimprovements, added ability to choose a custom folder to store isochrone tempfiles at in case users do not have write permissions on plugin folder location, disable/enable gui elements while threads are running to prevent accidential changes of settings
+    0.4 Implemented QThreads to keep GUI responsive on heavy load, added ability to cancel the process, complete restructure of code, minor other improvements
+    0.3 Added calculated field for totalroute-distance and totalroute-mode, minor code and general improvements, python-naming-conventions
+    0.2 Functionality for Routes added and minor optimizations
+    0.1 First experimental version, able to work with Isochrones
+
+# Tags are comma separated with spaces allowed
+tags=otp, opentripplanner, routing, routes, isochrones, transportation
+
+homepage=https://github.com/mkoenigb
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=Web
+
+# If the plugin can run on QGIS Server.
+server=False
+

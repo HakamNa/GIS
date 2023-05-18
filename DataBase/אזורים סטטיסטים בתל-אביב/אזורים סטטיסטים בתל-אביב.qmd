@@ -1,0 +1,78 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.22.11-Bia?owie?a">
+  <identifier>statisticalareas_demography2021</identifier>
+  <parentidentifier></parentidentifier>
+  <language>HEB</language>
+  <type>dataset</type>
+  <title>statisticalareas_demography2021</title>
+  <abstract>שכבת אזורים סטטיסטיים 2011 מותאמת לרשימת הישובים לסוף שנת 2021 ושכבת הרצף ממשרד הפנים לשנת 2021
+
+</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>מעמד מוניציפאלי בישראל</keyword>
+    <keyword>חלוקות מוניציפאליות בישראל</keyword>
+    <keyword>חלוקות גיאוגרפיות בישראל</keyword>
+    <keyword>גבולות מוניציפאליים</keyword>
+    <keyword>יישובים</keyword>
+    <keyword>מעמד מוניציפאלי</keyword>
+    <keyword>רשויות מקומיות</keyword>
+    <keyword>חלוקות מוניציפאליות</keyword>
+    <keyword>גבולות מוניציפאליים בישראל</keyword>
+    <keyword>מועצות מקומיות</keyword>
+    <keyword>גבולות גיאוגרפיים</keyword>
+    <keyword>מועצות אזוריות</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>גבולות מוניציפאליים</keyword>
+    <keyword>יישובים</keyword>
+    <keyword>מעמד מוניציפאלי</keyword>
+    <keyword>רשויות מקומיות</keyword>
+    <keyword>חלוקות מוניציפאליות</keyword>
+    <keyword>מועצות מקומיות</keyword>
+    <keyword>גבולות גיאוגרפיים</keyword>
+    <keyword>מועצות אזוריות</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>כנפי נשרים 66, ירושלים</address>
+      <city></city>
+      <administrativearea></administrativearea>
+      <postalcode>91342</postalcode>
+      <country>IL</country>
+    </contactAddress>
+    <name>פולינה בלכמן</name>
+    <organization>הלשכה המרכזית לסטטיסטיקה, תחום ממ"ג</organization>
+    <position>מרכזת מטהדטה</position>
+    <voice>02-6592151</voice>
+    <fax></fax>
+    <email>polinab@cbs.gov.il</email>
+    <role></role>
+  </contact>
+  <links/>
+  <fees></fees>
+  <constraints type="Limitations of use">השכבה נוצרה בתחום ממ"ג בלמ"ס ויש לבקש אישור לשימוש בשכבה</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxy="33.33598500000000087" minz="0" crs="EPSG:4326" miny="29.4874389999999984" minx="34.24484799999999751" maxz="0" dimensions="2" maxx="35.89768699999999768"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
